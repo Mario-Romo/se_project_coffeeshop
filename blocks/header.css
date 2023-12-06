@@ -11,12 +11,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  box-sizing: border-box;
 }
 
 .header__span-accent {
   display: block;
   color: #2f80ed;
-  font-family: "Noto Serif", Times New Roman, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -53,6 +54,7 @@
 }
 
 .header__image {
+  z-index: 0;
   position: absolute;
   width: 646px;
   height: 568px;

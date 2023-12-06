@@ -30,14 +30,14 @@
   line-height: 20px;
   margin: 0;
   list-style: none;
-  padding: 0 0 108px;
+  padding: 0;
 }
 
 .footer__list-item {
   margin: 0 0 16px 0;
 }
 
-.footer__list-item :last-child {
+.footer__list-item:last-child {
   margin-bottom: 0px;
 }
 
@@ -45,11 +45,23 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+  transition: 0.5s;
+}
+
+.footer__social-icon:hover {
+  opacity: 50%;
+  transition: ease-in-out 0.5s;
 }
 
 .footer__social-link {
   text-decoration: none;
   color: white;
+  transition: 0.5s;
+}
+
+.footer__social-link:hover {
+  color: #2f80ed;
+  transition: ease-in-out 0.5s;
 }
 
 .footer__copyright {
