@@ -1,4 +1,5 @@
 .header {
+  z-index: 0;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -24,6 +25,7 @@
 }
 
 .header__title {
+  z-index: 1;
   max-width: 729px;
   font-weight: 500;
   font-size: 60px;
@@ -33,6 +35,7 @@
 }
 
 .header__description {
+  z-index: 2;
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
@@ -41,6 +44,7 @@
 }
 
 .header__footer {
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   align-items: flex-end; /*sends Address to left/bottom corner*/
@@ -54,7 +58,6 @@
 }
 
 .header__image {
-  z-index: 0;
   position: absolute;
   width: 646px;
   height: 568px;
